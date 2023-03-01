@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Drink Calc</string>
+    <string name="towarisches">Товарищи</string>
+    <string name="categories">Категории</string>
+    <string name="results">Итого</string>
+    <string name="towarisch">Товарищ</string>
+    <string name="potracheno">Потрачено</string>
+    <string name="add">+</string>
+    <string name="update">^</string>
+    <string name="remove">-</string>
+    <string name="category">Категория</string>
+    <string name="spends">Затраты</string>
+</resources>
