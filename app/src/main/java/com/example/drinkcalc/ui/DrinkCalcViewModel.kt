@@ -194,7 +194,8 @@ class DrinkCalcViewModel : ViewModel() {
                 towTransfers[towBalance.first().first]?.set(towBalance.last().first,
                     towBalance.first().second.absoluteValue.toUInt()
                 )
-                towBalance.add(insIndex, Pair(towBalance.last().first, insValue))
+                if (insValue != 0)
+                    towBalance.add(insIndex, Pair(towBalance.last().first, insValue))
             }
             towBalance.removeLast()
             towBalance.removeFirst()
